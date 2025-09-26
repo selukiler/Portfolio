@@ -14,7 +14,7 @@ body {
 .central{
     width: 50%;
     height: 200px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     background-color: rgba(255,255,255,0.05);
     display: flex;
     flex-direction: column;
@@ -31,6 +31,7 @@ body {
 .intro{
     width: 1200px;
     height: 200px;
+    padding: 30px;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -41,4 +42,38 @@ body {
     font-weight: bold;
     font-size: 20px;
 
+}
+.iconos{
+    width: 75px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    gap: 1vw;
+}
+
+.linke{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.git{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    display: block;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.linke:hover {
+    transform: scale(1.2);
+}
+
+.git:hover {
+    transform: scale(1.2);
 }
